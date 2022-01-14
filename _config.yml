@@ -30,6 +30,8 @@ twitter_username: bennguyen_us
 github_username:  bnsrc
 youtube_url: https://www.youtube.com/channel/UCD3jtme3MpSRBrmlG2vcNqQ?sub_confirmation=1
 
+permalink: /:year/:month/:day/:title:output_ext
+
 # Build settings
 theme: minima
 plugins:
