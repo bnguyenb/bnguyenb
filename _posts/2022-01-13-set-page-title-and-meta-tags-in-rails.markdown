@@ -28,7 +28,7 @@ end
 ```
 
 Next, change the title tag in `app/views/layouts/application.html.erb` to look something like this:
-```html
+```ruby
 <title>
   <%= if content_for?(:title) then yield(:title) + ' | ' end %>
   BenNguyen's Blog
