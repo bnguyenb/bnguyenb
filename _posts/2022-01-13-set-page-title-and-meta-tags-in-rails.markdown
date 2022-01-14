@@ -2,7 +2,8 @@
 layout: post
 title:  "Set page titles and meta tags in Rails views"
 date:   2022-01-13 19:33:05 -0800
-categories: post
+categories: things
+tags: ruby rails
 ---
 Title and Meta tags are types of HTML tags that provide search engines with information about a webpage (metadata). It is not displayed on the page itself. Search engines use this metadata to understand additional information about the webpage for crawling and indexing.
 
