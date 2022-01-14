@@ -21,11 +21,10 @@
 title: BNB
 email: hello@bennguyen.us
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I’m Ben! I'm a programmer, living in Fremont CA.
+  This is my blog about programming and my hobbies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: bennguyen_us
 github_username:  bnsrc
 
@@ -55,6 +54,6 @@ plugins:
 #   - vendor/ruby/
 
 domain: bennguyen.us       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://bennguyen.us  # the base hostname and protocol for your site, e.g. http://example.com
+url: https://bennguyen.us  # the base hostname and protocol for your site, e.g. https://example.com
 # baseurl: /bnb/      # place folder name if the site is served in a subfolder
 google_analytics: "G-9GMND65W6R"
