@@ -1,8 +1,8 @@
 ---
-layout: page
-menu: things
-title: Things
-permalink: /things/
+# layout: page
+# menu: things
+# title: Things
+# permalink: /things/
 ---
 
 <ul class="post-list">
