@@ -1,6 +1,7 @@
 ---
 layout: page
-title: things
+menu: things
+title: Things
 permalink: /things/
 ---
 
