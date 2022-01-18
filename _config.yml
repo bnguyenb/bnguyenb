@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BNB
+title: Ben Nguyen
 author: Ben Nguyen
 address: Fremont, CA 94539
 email: hello@bennguyen.us
