@@ -44,5 +44,3 @@ Now just set title and meta tags for each view like this:
 <% meta_tag :description, @post.description %>
 <% meta_tag :keywords, @post.keywords.join(',') %>
 ```
-
-Code fun :)

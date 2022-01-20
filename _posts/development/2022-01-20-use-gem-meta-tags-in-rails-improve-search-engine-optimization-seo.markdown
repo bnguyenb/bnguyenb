@@ -75,5 +75,3 @@ And then can use it in layout:
 ```
 
 This is my thought about using [meta-tags](https://github.com/kpumuk/meta-tags) gem. 
-
-Code fun :)

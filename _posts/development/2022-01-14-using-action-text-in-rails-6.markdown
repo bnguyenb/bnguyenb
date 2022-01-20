@@ -46,4 +46,3 @@ end
 # show.html.erb
 <%= @post.content %>
 ```
-Code fun :)

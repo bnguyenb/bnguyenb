@@ -80,5 +80,3 @@ Syntax highlighting for .env file.
 Very helpful for you to work on log files
 
 ![VScode extensions for ruby on rails - Output Colorizer](/uploads/2022/01162255_vscode_extensions_vscode_output_colorizer.png "VScode extensions for ruby on rails - Output Colorizer")
-
-Code fun :)
