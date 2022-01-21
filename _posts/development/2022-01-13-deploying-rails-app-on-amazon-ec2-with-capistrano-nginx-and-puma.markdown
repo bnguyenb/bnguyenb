@@ -49,6 +49,8 @@ $ cd ~/.rbenv && src/configure && make -C src
 $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 $ source ~/.bashrc
 $ ~/.rbenv/bin/rbenv init
+# Follow instruction to add `eval "$(rbenv init - bash)"` to ~/.bashrc
+$ source ~/.bashrc
 $ type rbenv
 ```
 
