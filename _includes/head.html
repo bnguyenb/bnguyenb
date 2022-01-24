@@ -9,5 +9,49 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 
+  <meta name='keywords' content='rails, development, software, programming' />
+  <meta name='description' content='A blog about programming and story telling.' />
+
+  <meta property="og:title"           content="bennguyen.us - rails, development, software, programming" />
+  <meta property="og:description"     content="A blog about programming and story telling." />
+
+  <meta name="author"                 content="Ben Nguyen" />
+  <meta name="copyright"              content="Ben Nguyen" />
+  <meta name="GENERATOR"              content="Ben Nguyen" />
+
+  <meta content="INDEX,FOLLOW"        name="robots" />
+  <meta http-equiv="audience"         content="General" />
+  <meta name="resource-type"          content="Document" />
+  <meta name="distribution"           content="Global" />
+  <meta name="revisit-after"          content="1 days" />
+  <meta http-equiv="X-UA-Compatible"  content="IE=edge,chrome=1" />
+
+  <meta property="og:type"            content="website" />
+  <meta property="og:locale"          content="en_US" />
+  <!-- <meta property="fb:pages"      content="" /> -->
+  <meta property="fb:app_id"          content="1096414721171386" />
+
+  <meta property="og:image:width"     content="1200" >
+  <meta property="og:image:height"    content="630" >
+
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '1096414721171386',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v2.10'
+      });
+      FB.AppEvents.logPageView();
+    };
+    (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6683782673473426" crossorigin="anonymous"></script>
 </head>
