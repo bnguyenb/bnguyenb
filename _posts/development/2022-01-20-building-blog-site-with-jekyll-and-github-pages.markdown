@@ -7,7 +7,7 @@ path: "development"
 tags: rails jekyll github
 ---
 
-I created this blog by using Jekyll and Github Page. Jekyll is a gem that help you ransform your plain text into static websites and blogs.
+I created this blog by using Jekyll and Github Page. Jekyll is a gem that help you transform your plain text into static websites and blogs.
 
 Jekyll uses the [Liquid](https://shopify.github.io/liquid/) templating language to process templates. Checkout this [document](https://shopify.github.io/liquid/) if you want to learn more about Liquid.
 
