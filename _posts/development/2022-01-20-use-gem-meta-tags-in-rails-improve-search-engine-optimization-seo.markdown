@@ -8,7 +8,7 @@ tags: ruby rails seo
 ---
 
 
-### [MetaTags](https://github.com/kpumuk/meta-tags): a gem to make your Rails application SEO-friendly
+### [MetaTags](https://github.com/kpumuk/meta-tags){:target="_blank"}: a gem to make your Rails application SEO-friendly
 
 #### First, add meta-tags to your Gemfile
 ```ruby
@@ -74,4 +74,4 @@ And then can use it in layout:
   <%= display_meta_tags(default_meta_tags) %>
 ```
 
-This is my thought about using [meta-tags](https://github.com/kpumuk/meta-tags) gem. 
+This is my thought about using [meta-tags](https://github.com/kpumuk/meta-tags){:target="_blank"} gem. 
