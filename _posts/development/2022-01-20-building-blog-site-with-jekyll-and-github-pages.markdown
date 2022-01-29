@@ -9,7 +9,7 @@ tags: rails jekyll github
 
 I created this blog by using Jekyll and Github Page. Jekyll is a gem that help you transform your plain text into static websites and blogs.
 
-Jekyll uses the [Liquid](https://shopify.github.io/liquid/) templating language to process templates. Checkout this [document](https://shopify.github.io/liquid/) if you want to learn more about Liquid.
+Jekyll uses the [Liquid](https://shopify.github.io/liquid/){:target="_blank"} templating language to process templates. Checkout this [document](https://shopify.github.io/liquid/){:target="_blank"} if you want to learn more about Liquid.
 
 ### Install Jekyll
 
@@ -25,7 +25,7 @@ $ bundle jekyll serve --trace
 ```
 Now you can access your site at http://127.0.0.1:4000 by default.
 
-### [Folder Structure](https://jekyllrb.com/docs/structure/)
+### [Folder Structure](https://jekyllrb.com/docs/structure/){:target="_blank"}
 
 ```markdown
 .
@@ -57,7 +57,7 @@ Now you can access your site at http://127.0.0.1:4000 by default.
 ```
 
 
-### [Permarklinks](https://jekyllrb.com/docs/permalinks/)
+### [Permarklinks](https://jekyllrb.com/docs/permalinks/){:target="_blank"}
 
 Permalinks are the output path for your pages, posts, or collections. They allow you to structure the directories of your source code different from the directories in your output.
 There are 2 ways to set Permarklinks:
@@ -88,7 +88,7 @@ Jekyll posts and pages are written in Markdown. Markdown is a markup language wh
 {% endraw %}
 ```
 
-You can learn common markdown syntax [here](https://www.markdownguide.org/cheat-sheet/).
+You can learn common markdown syntax [here](https://www.markdownguide.org/cheat-sheet/){:target="_blank"}.
 
 This is an example about my post
 ```markdown
@@ -108,7 +108,7 @@ My Post content here
 
 ### Custom layout
 
-All layouts inside `_layout` folder. By default, jekyll using [minima](https://github.com/jekyll/minima) as default theme:
+All layouts inside `_layout` folder. By default, jekyll using [minima](https://github.com/jekyll/minima){:target="_blank"} as default theme:
 - `home.html`: layout for homepage
 - `page.html`: layout for page
 - `post.html`: layout for post
@@ -121,9 +121,11 @@ You can also create your own new theme by
 $ jekyll new-theme your-awesome-theme
 ```
 
-Check [it](https://jekyllrb.com/docs/themes/) out for more details...
+Check [it](https://jekyllrb.com/docs/themes/){:target="_blank"} out for more details...
 
 ### Deploy
 
-Now, you just need to follow [this instruction](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) to deploy your blog to github page and can use it with your custom domain.
+Now, you just need to follow [this instruction](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll){:target="_blank"} to deploy your blog to github page and can use it with your custom domain.
+
+#### I also created another website with custom design by Jekyll and Github page. It's here [https://shouldbuy.us](https://shouldbuy.us){:target="_blank"}
 
