@@ -11,7 +11,7 @@ In order to have Action Text in your application you have to follow a few steps.
 #### Install Action Text
 ```sh
 # Terminal: Development
-$ rails action_text:install
+rails action_text:install
 ```
 
 #### Import style and javascript

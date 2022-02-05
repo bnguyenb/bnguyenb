@@ -23,79 +23,79 @@ First of all, create an Ubuntu Amazon EC2 Instance.
 ### Install curl, nodejs and required libraries.
 ```sh
 # Terminal: Production
-$ sudo apt update
-$ sudo apt install curl
-$ sudo apt install zlib1g-dev build-essential libssl-dev libreadline-dev
-$ sudo apt install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev
-$ sudo apt install libxslt1-dev libcurl4-openssl-dev
-$ sudo apt install software-properties-common libffi-dev nodejs
+sudo apt update
+sudo apt install curl
+sudo apt install zlib1g-dev build-essential libssl-dev libreadline-dev
+sudo apt install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev
+sudo apt install libxslt1-dev libcurl4-openssl-dev
+sudo apt install software-properties-common libffi-dev nodejs
 ```
 
 ### Install yarn
 
 ```sh
 # Terminal: Production
-$ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-$ sudo apt update && sudo apt install yarn
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update && sudo apt install yarn
 ```
 
 ### Install rbenv
 
 ```sh
 # Terminal: Production
-$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-$ cd ~/.rbenv && src/configure && make -C src
-$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-$ source ~/.bashrc
-$ ~/.rbenv/bin/rbenv init
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+cd ~/.rbenv && src/configure && make -C src
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+~/.rbenv/bin/rbenv init
 # Follow instruction to add `eval "$(rbenv init - bash)"` to ~/.bashrc
-$ source ~/.bashrc
-$ type rbenv
+source ~/.bashrc
+type rbenv
 ```
 
 ### Install ruby-build
 
 ```sh
 # Terminal: Production
-$ git clone https://github.com/rbenv/ruby-build.git
-$ PREFIX=/usr/local sudo ./ruby-build/install.sh
+git clone https://github.com/rbenv/ruby-build.git
+PREFIX=/usr/local sudo ./ruby-build/install.sh
 ```
 
 ### Install ruby (version 3.0.2)
 
 ```sh
 # Terminal: Production
-$ rbenv install 3.0.2
-$ rbenv global 3.0.2
+rbenv install 3.0.2
+rbenv global 3.0.2
 ```
 
 ### Install rails (version 6.1.4.1)
 
 ```sh
 # Terminal: Production
-$ gem install rails -v 6.1.4.1
-$ rbenv rehash
-$ rails -v
+gem install rails -v 6.1.4.1
+rbenv rehash
+rails -v
 ```
 
 ### Install Postgresql
 
 ```sh
 # Terminal: Production
-$ sudo apt install postgresql postgresql-contrib
-$ sudo apt install libpq-dev
+sudo apt install postgresql postgresql-contrib
+sudo apt install libpq-dev
 ```
 
 ### Working with database
 
 ```sh
 # Terminal: Production
-$ sudo -u postgres createuser --interactive
+sudo -u postgres createuser --interactive
   --> Create new user, it will ask for enter username
-$ sudo -u postgres createdb <dbname>
+sudo -u postgres createdb <dbname>
   --> Create new database
-$ sudo -u postgres psql
+sudo -u postgres psql
   --> use psql to set password and add user to database
 postgres=# alter user <username> with encrypted password '<password>';
 postgres=# grant all privileges on database <dbname> to <username>;
@@ -105,23 +105,23 @@ postgres=# \q
 ### Edit pg_hba.conf file to allow login with password
 ```sh
 # Terminal: Production
-$ sudo nano /etc/postgresql/12/main/pg_hba.conf
+sudo nano /etc/postgresql/12/main/pg_hba.conf
   local   all             postgres                            peer
   --> change peer to md5
-$ sudo service postgresql restart
+sudo service postgresql restart
 ```
 
 ### Install Nginx
 ```sh
 # Terminal: Production
-$ sudo apt install nginx
+sudo apt install nginx
 ```
 
 ### Create github repo and config deploy key
 ```sh
 # Terminal: Production
-$ ssh-keygen -t rsa
-$ cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
 ```
 
 #### Follow [these instructions](https://docs.github.com/en/developers/overview/managing-deploy-keys) to add the newly created key to your GitHub project.
@@ -135,17 +135,17 @@ gem 'puma'
 
 # If you already have a development group, you can add this into it
 group :development do
-    gem 'capistrano',         require: false
-    gem 'capistrano-rvm',     require: false
-    gem 'capistrano-rails',   require: false
-    gem 'capistrano-bundler', require: false
-    gem 'capistrano3-puma',   require: false
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
 end
 ```
 ```sh
 # Terminal: Development
-$ bundle
-$ cap install
+bundle
+cap install
 ```
 
 #### This creates:
@@ -158,7 +158,7 @@ Update these files with the links below:
 
 ```sh
 # Terminal: Development
-$ cap production deploy:initial
+cap production deploy:initial
 ```
 
 ### Nginx configuration
@@ -167,19 +167,19 @@ Create file config/nginx.conf and update with this link:
 
 ```sh
 # Terminal: Development
-$ cap production deploy
+cap production deploy
 ```
 
 ```sh
 # Terminal: Production
-$ sudo rm /etc/nginx/sites-enabled/default
-$ sudo ln -nfs "/home/ubuntu/apps/[APP_NAME]/current/config/nginx.conf" "/etc/nginx/sites-enabled/[APP_NAME]"
-$ sudo service nginx restart
+sudo rm /etc/nginx/sites-enabled/default
+sudo ln -nfs "/home/ubuntu/apps/[APP_NAME]/current/config/nginx.conf" "/etc/nginx/sites-enabled/[APP_NAME]"
+sudo service nginx restart
 ```
 
 You’re all done! Now, anytime you want to push an update, all you have to do is commit your changes to your repo, then run:
 
 ```sh
 # Terminal: Development
-$ cap production deploy
+cap production deploy
 ```

@@ -14,14 +14,14 @@ Jekyll uses the [Liquid](https://shopify.github.io/liquid/){:target="_blank"} te
 ### Install Jekyll
 
 ```sh
-$ gem install bundle jekyll
+gem install bundle jekyll
 ```
 
 ### Create new app with jekyll
 ```sh
-$ jekyll new blog
-$ cd blog
-$ bundle jekyll serve --trace
+jekyll new blog
+cd blog
+bundle jekyll serve --trace
 ```
 Now you can access your site at http://127.0.0.1:4000 by default.
 
@@ -118,7 +118,7 @@ All are inherited from `default.html`
 You can also create your own new theme by
 ```sh
 # Terminal: Development
-$ jekyll new-theme your-awesome-theme
+jekyll new-theme your-awesome-theme
 ```
 
 Check [it](https://jekyllrb.com/docs/themes/){:target="_blank"} out for more details...
