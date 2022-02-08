@@ -4,7 +4,7 @@ title:  "How to install homebrew on M1 MacOS 12 Monterey"
 date:   2022-02-01 21:01:05 -0800
 categories: development
 path: "development"
-tags: macos m1 homebrew
+tags: macos m1 homebrew macbook
 ---
 
 Today, I've just got new M1 Macbook Pro from my work. I have to re-setup my development envirnoment. So I noted my process here.
