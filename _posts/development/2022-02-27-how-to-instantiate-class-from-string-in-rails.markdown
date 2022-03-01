@@ -16,7 +16,7 @@ result_object = Object.const_get "ClassName"
 Below is an example how to instantiate class and call methods
 
 ```ruby
-# post.rb
+# ukraine.rb
 class Ukraine
   def say
     puts "Stop Putin! Stop War in Ukraine!!!"
@@ -25,6 +25,7 @@ end
 ```
 
 ```sh
+Terminal: Development
 irb(main):001:0> ukraine = Object.const_get "Ukraine"
 irb(main):001:0> ukraine.say
 --> Stop Putin! Stop War in Ukraine!!!
