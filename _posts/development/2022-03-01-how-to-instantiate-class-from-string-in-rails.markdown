@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to instantiate class from string in Rails?"
-date:   2022-03-01 04:15:05 -0800
+date:   2022-03-01 09:15:05 -0800
 categories: development
 path: "development"
 tags: rails
