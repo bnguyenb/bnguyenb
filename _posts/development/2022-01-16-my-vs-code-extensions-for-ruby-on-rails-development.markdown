@@ -4,7 +4,7 @@ title:  "My VSCode Extensions for Ruby on Rails development"
 date:   2022-01-16 22:55:05 -0800
 categories: development
 path: "development"
-tags: ruby rails vscode
+tags: ["Ruby on Rails", "General"]
 ---
 
 Here are the list of VS Code extensions I'm using for my Ruby on Rails works.

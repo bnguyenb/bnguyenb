@@ -4,7 +4,7 @@ title:  "Deploying a Rails App on Amazon EC2 with Capistrano, Nginx, and Puma"
 date:   2022-01-13 15:50:05 -0800
 categories: development
 path: "development"
-tags: ruby rails
+tags: ["Ruby on Rails"]
 ---
  In this tutorial, the stack I’ll be using is:
 - Ubuntu 20.04 LTS

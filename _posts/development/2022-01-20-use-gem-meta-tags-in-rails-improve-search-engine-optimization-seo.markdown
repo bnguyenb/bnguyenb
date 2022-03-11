@@ -4,7 +4,7 @@ title:  "Use gem 'meta-tags' in Rails app to improve Search Engine Optimization 
 date:   2022-01-20 07:22:05 -0800
 categories: development
 path: "development"
-tags: ruby rails seo
+tags: ["Ruby on Rails"]
 ---
 
 

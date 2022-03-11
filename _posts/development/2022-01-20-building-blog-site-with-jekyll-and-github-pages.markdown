@@ -4,7 +4,7 @@ title:  "Building Blog Website with Jekyll and Github pages"
 date:   2022-01-20 18:22:05 -0800
 categories: development
 path: "development"
-tags: rails jekyll github
+tags: ["Ruby on Rails", "jekyll"]
 ---
 
 I created this blog by using Jekyll and Github Page. Jekyll is a gem that help you transform your plain text into static websites and blogs.

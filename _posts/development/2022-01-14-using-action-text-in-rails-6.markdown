@@ -4,7 +4,7 @@ title:  "Using Action Text in Rails 6"
 date:   2022-01-14 15:33:05 -0800
 categories: development
 path: "development"
-tags: ruby rails
+tags: ["Ruby on Rails"]
 ---
 In order to have Action Text in your application you have to follow a few steps. We need to install Active Storage and then Action Text.
 

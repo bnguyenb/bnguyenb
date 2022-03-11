@@ -4,7 +4,7 @@ title:  "How to escape special charaters in markdown"
 date:   2022-01-31 15:26:05 -0800
 categories: development
 path: "development"
-tags: rails jekyll markdown
+tags: ["Ruby on Rails", "jekyll", "Markdown"]
 ---
 
 With [previous post](https://bennguyen.us/2022/01/21/building-blog-site-with-jekyll-and-github-pages.html){:target="_blank"}, I show you guys how to create blog site with jekyll and github pages. And when working on that post, I had some troubles with showing special charaters in view. So this post will show you how I play with it.
