@@ -15,23 +15,6 @@ permalink: /documentary/
   .image-gallery-index a span {display: block; text-align: center; padding: 3px 0;}
 </style>
 
-<ul class="post-list">
-  {%- for post in site.categories['documentary'] -%}
-  <li>
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <span class="post-meta">{{ post.date | date: date_format }}</span>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-    {%- endif -%}
-  </li>
-  {%- endfor -%}
-</ul>
-
 <p class="image-gallery-index">
   {%- for post in site.categories['documentary'] -%}
     <a href="{{ post.url }}" title="{{ post.title }}">
