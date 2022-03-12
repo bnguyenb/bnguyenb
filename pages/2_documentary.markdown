@@ -15,15 +15,6 @@ permalink: /documentary/
   .image-gallery-index a span {display: block; text-align: center; padding: 3px 0;}
 </style>
 
-<p class="image-gallery-index">
-  {% for item in page.galleries %}
-    <a href="{{ item.url }}" title="{{ item.title }}">
-      <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.image }}&w=300&h=300&output=jpg&q=50&t=square" />
-      <span>{{ item.title }}</span>
-    </a>
-  {% endfor %}
-</p>
-
 <ul class="post-list">
   {%- for post in site.categories['documentary'] -%}
   <li>
@@ -40,3 +31,12 @@ permalink: /documentary/
   </li>
   {%- endfor -%}
 </ul>
+
+<p class="image-gallery-index">
+  {%- for post in site.categories['documentary'] -%}
+    <a href="{{ post.url }}" title="{{ post.title }}">
+      <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/uploads/documentary/{{post.photos_folder}}/{{ post.feature_image }}&w=300&h=300&output=jpg&q=50&t=square" />
+      <span>{{ post.title | escape }}</span>
+    </a>
+  {%- endfor -%}
+</p> 

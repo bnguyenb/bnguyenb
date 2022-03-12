@@ -6,9 +6,7 @@ categories: documentary
 path: "documentary"
 tags: ["Street Photography"]
 photos_folder: "20211022_downtown_fremont"
-feature_image: ""
+feature_image: "DSCF3035.jpg"
 ---
-
-### Downtown Fremont photos walk
 
 {% include image-gallery.html folder="/uploads/documentary/20211022_downtown_fremont" %}
