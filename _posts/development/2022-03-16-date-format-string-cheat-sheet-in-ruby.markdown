@@ -77,7 +77,7 @@ tags: ["Ruby on Rails"]
 | %W      | Week number of the year. Week starts with Monday (00..53) |
 
 | Flags 1                                             |
-| ------- |:-----------------------------------------:|
+|:-------:|:-----------------------------------------:|
 | -       | Don't pad a numerical output              |
 | _       | Use spaced for padding                    |
 | 0       | Use zeros for padding                     |
