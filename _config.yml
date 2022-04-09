@@ -28,7 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: bvwen
 github_username:  bvnwen
-youtube_url: https://www.youtube.com/channel/UC-BiaPOxAI2y0VWRCRhwwoQ?sub_confirmation=1
+youtube_development_url: https://www.youtube.com/channel/UC-BiaPOxAI2y0VWRCRhwwoQ?sub_confirmation=1
+youtube_documentary_url: https://www.youtube.com/channel/UCvZ0C4WJchIXpWYQoFvjUcg?sub_confirmation=1
 
 permalink: /:year/:month/:day/:title:output_ext
 paginate: 5
@@ -37,6 +38,8 @@ paginate: 5
 
 # Build settings
 theme: minima
+minima:
+  skin: solarized
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
