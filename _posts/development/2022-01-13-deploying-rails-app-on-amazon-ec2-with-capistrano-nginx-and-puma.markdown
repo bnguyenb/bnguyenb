@@ -153,8 +153,8 @@ cap install
 - config/deploy.rb, which holds configuration and environment variables
 
 Update these files with the links below:
-- [Capfile](https://gist.github.com/bvnwen/c3dfe65152d6527db936646ad3be5930){:target="_blank"}
-- [deploy.rb](https://gist.github.com/bvnwen/02783b0e42f57ee535a93938699218d1){:target="_blank"}
+- [Capfile](https://gist.github.com/bnguyenb/c3dfe65152d6527db936646ad3be5930){:target="_blank"}
+- [deploy.rb](https://gist.github.com/bnguyenb/02783b0e42f57ee535a93938699218d1){:target="_blank"}
 
 ```sh
 # Terminal: Development
@@ -163,7 +163,7 @@ cap production deploy:initial
 
 ### Nginx configuration
 Create file config/nginx.conf and update with this link:
-[nginx.conf](https://gist.github.com/bvnwen/5ec641ed8744ddaf8b6dc21ebc80e740){:target="_blank"}
+[nginx.conf](https://gist.github.com/bnguyenb/5ec641ed8744ddaf8b6dc21ebc80e740){:target="_blank"}
 
 ```sh
 # Terminal: Development
