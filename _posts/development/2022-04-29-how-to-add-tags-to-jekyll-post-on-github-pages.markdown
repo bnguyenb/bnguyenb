@@ -132,4 +132,6 @@ Add this code to ```post.html``` in ```_layouts``` folder
 
 Above is the way currently I'm using to add tags to jekyll posts in Github Pages. 
 #### I also created a video to show it. You can check it out on Youtube here:
-[How to add tags to jekyll posts on GitHub Pages](https://youtu.be/C3uGBHbQnXU){:target="_blank"}.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C3uGBHbQnXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
