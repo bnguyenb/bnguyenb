@@ -129,3 +129,6 @@ Now, you just need to follow [this instruction](https://docs.github.com/en/pages
 
 #### I also created another website with custom design by Jekyll and Github page. It's here [https://shouldbuy.us](https://shouldbuy.us){:target="_blank"}
 
+#### I also created a video to show it. You can check it out on Youtube here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5RZJEyg5WU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
