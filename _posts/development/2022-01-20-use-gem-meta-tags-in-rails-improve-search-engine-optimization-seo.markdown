@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use gem 'meta-tags' in Rails app to improve Search Engine Optimization (SEO)"
-date:   2022-01-20 07:22:05 -0800
+date:   2022-01-20 07:22:05 -0700
 categories: development
 path: "development"
 tags: ["Ruby on Rails"]

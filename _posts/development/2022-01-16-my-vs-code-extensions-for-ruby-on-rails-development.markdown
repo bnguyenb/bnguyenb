@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My VSCode Extensions for Ruby on Rails development"
-date:   2022-01-16 22:55:05 -0800
+date:   2022-01-16 22:55:05 -0700
 categories: development
 path: "development"
 tags: ["Ruby on Rails", "General"]

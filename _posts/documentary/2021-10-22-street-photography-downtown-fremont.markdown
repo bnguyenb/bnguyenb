@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Downtown Fremont Photos"
-date:   2021-10-22 09:15:05 -0800
+date:   2021-10-22 09:15:05 -0700
 categories: documentary
 path: "documentary"
 tags: ["Street Photography"]

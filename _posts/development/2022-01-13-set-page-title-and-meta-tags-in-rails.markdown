@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Set page titles and meta tags in Rails views"
-date:   2022-01-13 19:33:05 -0800
+date:   2022-01-13 19:33:05 -0700
 categories: development
 path: "development"
 tags: ["Ruby on Rails"]

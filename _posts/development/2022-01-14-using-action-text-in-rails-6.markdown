@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Action Text in Rails 6"
-date:   2022-01-14 15:33:05 -0800
+date:   2022-01-14 15:33:05 -0700
 categories: development
 path: "development"
 tags: ["Ruby on Rails"]

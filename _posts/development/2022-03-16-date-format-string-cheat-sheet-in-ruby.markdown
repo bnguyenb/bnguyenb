@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Date format string cheat sheet in Ruby?"
-date:   2022-03-16 06:15:05 -0800
+date:   2022-03-16 06:15:05 -0700
 categories: development
 path: "development"
 tags: ["Ruby on Rails"]

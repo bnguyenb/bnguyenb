@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Building Blog Website with Jekyll and Github pages"
-date:   2022-01-20 18:22:05 -0800
+date:   2022-01-20 18:22:05 -0700
 categories: development
 path: "development"
-tags: ["Ruby on Rails", "jekyll"]
+tags: ["Ruby on Rails", "jekyll", "github"]
 ---
 
 I created this blog by using Jekyll and Github Page. Jekyll is a gem that help you transform your plain text into static websites and blogs.
@@ -95,7 +95,7 @@ This is an example about my post
 ---
 layout: post
 title:  "Building Blog Website with Jekyll and Github pages"
-date:   2022-01-20 18:22:05 -0800
+date:   2022-01-20 18:22:05 -0700
 categories: development
 path: "development"
 tags: rails jekyll github

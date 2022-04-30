@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to install homebrew on M1 MacOS 12 Monterey"
-date:   2022-02-01 21:01:05 -0800
+date:   2022-02-01 21:01:05 -0700
 categories: development
 path: "development"
 tags: ["General"]
