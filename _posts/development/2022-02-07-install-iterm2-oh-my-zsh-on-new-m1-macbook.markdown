@@ -4,7 +4,7 @@ title:  "Install iTerm2 and config oh-my-zsh on M1 MacOS 12 Monterey"
 date:   2022-02-07 21:01:05 -0700
 categories: development
 path: "development"
-tags: "General"
+tags: [ "General" ]
 ---
 
 ### What is iTerm2

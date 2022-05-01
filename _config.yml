@@ -40,7 +40,7 @@ paginate: 5
 theme: minima
 # minima:
 #   skin: solarized
-remote_theme: aterenin/minima-reboot
+# remote_theme: aterenin/minima-reboot
 
 plugins:
   - jekyll-feed
