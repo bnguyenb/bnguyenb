@@ -39,4 +39,12 @@ import "popper"
 import "bootstrap"
 ```
 
+#### Add to ```assets/config/manifest.js```
+```js
+//= link jquery.min.js
+//= link jquery_ujs.js
+//= link popper.js
+//= link bootstrap.min.js
+```
+
 #### This is all you need to have Bootstrap and jQuery fully working
